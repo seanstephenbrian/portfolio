@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import '../styles/menu.scss';
 
-export default function Menu() {
+export default function Menu(props) {
+
+    const { relaySection } = props;
 
     const [selected, setSelected] = useState('web');
+
+    useEffect(() => {
+        relaySection(selected);
+    }, [relaySection, selected]);
 
     return (
         <nav>

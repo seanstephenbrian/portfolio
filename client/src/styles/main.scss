@@ -53,4 +53,5 @@ body {
 
 main {
     display: flex;
+    gap: calc(var(--rvv))
 }
