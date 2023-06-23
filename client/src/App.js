@@ -19,7 +19,7 @@ function App() {
             <Header />
             <main>
                 <Menu relaySection={updateSection} />
-                <Content section={section} />
+                <Content selectedSection={section} />
             </main>
             
         </div>

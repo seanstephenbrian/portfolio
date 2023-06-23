@@ -33,6 +33,15 @@ export default function Menu(props) {
                 >
                     <span role="img" aria-label="photo">📸</span>
                 </li>
+                <li 
+                    className={selected === 'about' ? 'selected about' : 'about'}
+                    onClick={() => setSelected('about')}
+                >
+                    <span role="img" aria-label="photo">🙋🏻</span>
+                </li>
+
+
+                
                 {/* <li 
                     className={selected === 'music' ? 'selected' : ''}
                     onClick={() => setSelected('music')}
