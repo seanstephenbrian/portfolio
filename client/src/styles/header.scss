@@ -1,0 +1,13 @@
+header.header {
+    display: flex;
+    padding: var(--padding);
+
+    .name {
+        display: flex;
+        gap: calc(var(--rvv));
+
+        .name-word {
+
+        }
+    }
+}

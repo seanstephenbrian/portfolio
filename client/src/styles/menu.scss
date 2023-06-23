@@ -1,0 +1,39 @@
+nav {
+    --nav-padding: 15px;
+    margin-top: 50px;
+    width: fit-content;
+    
+    ul {
+        padding-left: calc(var(--padding) - 5px);
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: calc(2*var(--rvv));
+
+        li {
+            width: var(--large);
+            height: var(--large);
+            padding: var(--nav-padding);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: transform 5s linear;
+        }
+
+        li:hover {
+            transform: rotate(360deg)
+        }
+
+        li.selected {
+            border: 2px solid red;
+            text-shadow: 0px 0px blue;
+        }
+
+        li.selected:hover {
+            color: transparent;
+        }
+
+    }
+}
