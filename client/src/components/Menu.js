@@ -9,18 +9,30 @@ export default function Menu() {
     return (
         <nav>
             <ul className='menu-options'>
-                <li className={selected === 'web' ? 'selected' : ''}>
+                <li
+                    className={selected === 'web' ? 'selected web' : 'web'}
+                    onClick={() => setSelected('web')}
+                >
                     <span role="img" aria-label="web">🖥️</span>
                 </li>
-                <li className={selected === 'food' ? 'selected' : ''}>
+                <li 
+                    className={selected === 'food' ? 'selected food' : 'food'}
+                    onClick={() => setSelected('food')}
+                >
                     <span role="img" aria-label="food">🍝</span>
                 </li>
-                <li className={selected === 'photo' ? 'selected' : ''}>
+                <li 
+                    className={selected === 'photo' ? 'selected photo' : 'photo'}
+                    onClick={() => setSelected('photo')}
+                >
                     <span role="img" aria-label="photo">📸</span>
                 </li>
-                <li className={selected === 'music' ? 'selected' : ''}>
+                {/* <li 
+                    className={selected === 'music' ? 'selected' : ''}
+                    onClick={() => setSelected('music')}
+                >
                     <span role="img" aria-label="music">🎵</span>
-                </li>
+                </li> */}
             </ul>
         </nav>
     )

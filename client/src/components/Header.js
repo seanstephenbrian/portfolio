@@ -6,9 +6,9 @@ export default function Header() {
     return (
         <header className='header'>
             <section className='name'>
-                <span className='name-word'>sean</span>
-                <span className='name-word'>stephen</span>
-                <span className='name-word'>brian</span>
+                <span className='sean'>sean</span>
+                <span className='stephen'>stephen</span>
+                <span className='brian'>brian</span>
             </section>
         </header>
     )

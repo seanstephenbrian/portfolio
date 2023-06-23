@@ -6,8 +6,17 @@ header.header {
         display: flex;
         gap: calc(var(--rvv));
 
-        .name-word {
-
+        .sean:hover {
+            color: var(--green);
         }
+
+        .stephen:hover {
+            color: var(--gray);
+        }
+
+        .brian:hover {
+            color: var(--red);
+        }
+
     }
 }
