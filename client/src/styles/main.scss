@@ -28,6 +28,7 @@ time, mark, audio, video {
     --rvv: calc(1rem + 1vmin + 1vmax);
 
     --padding: calc(var(--rvv));
+    --nav-padding: 15px;
 
     --large: calc(1.1*var(--rvv));
     --medium: calc(0.9*var(--rvv));

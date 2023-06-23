@@ -1,0 +1,119 @@
+{
+    "projects": [
+        {
+            "title": "lead block sports",
+            "liveUrl": "https://www.leadblocksports.blog/",
+            "gitUrl": "https://github.com/seanstephenbrian/lead-block",
+            "stack": ["express", "node", "react", "mongoose", "sass", "pug", "css", "javascript"]
+        },
+        {
+            "title": "where's bosch?",
+            "liveUrl": "https://seanstephenbrian.github.io/wheres-bosch/",
+            "gitUrl": "https://github.com/seanstephenbrian/wheres-bosch",
+            "stack": ["react", "javascript", "sass", "firebase"]
+        },
+        {
+            "title": "secret society",
+            "liveUrl": "https://secret-society.up.railway.app/",
+            "gitUrl": "https://github.com/seanstephenbrian/secret-society",
+            "stack": ["express", "node", "mongoose", "pug", "css", "javascript"]
+        },
+        {
+            "title": "ArtCart",
+            "liveUrl": "https://art-cart.up.railway.app/",
+            "gitUrl": "https://github.com/seanstephenbrian/art-cart",
+            "stack": ["react", "javascript", "sass"]
+        },
+        {
+            "title": "campaign website",
+            "liveUrl": "https://seanstephenbrian.github.io/campaign-website/",
+            "gitUrl": "https://github.com/seanstephenbrian/campaign-website",
+            "stack": ["javascript", "css", "html"]
+        },
+        {
+            "title": "brassicaDB",
+            "liveUrl": "https://brassicadb.up.railway.app/",
+            "gitUrl": "https://github.com/seanstephenbrian/brassicas",
+            "stack": ["express", "node", "mongoose", "pug", "css", "javascript"]
+        },
+        {
+            "title": "now // later",
+            "liveUrl": "https://seanstephenbrian.github.io/todo-list/",
+            "gitUrl": "https://github.com/seanstephenbrian/todo-list",
+            "stack": ["javascript", "css", "webpack"]
+        },
+        {
+            "title": "graces",
+            "liveUrl": "https://graces.website/",
+            "gitUrl": "https://github.com/seanstephenbrian/graces",
+            "stack": ["react", "javascript", "sass"]
+        },
+        {
+            "title": "battlesquares",
+            "liveUrl": "https://seanstephenbrian.github.io/battleship/",
+            "gitUrl": "https://github.com/seanstephenbrian/battleship",
+            "stack": ["javascript", "jest", "css", "webpack"]
+        },
+        {
+            "title": "memory game",
+            "liveUrl": "https://seanstephenbrian.github.io/memory-game/",
+            "gitUrl": "https://github.com/seanstephenbrian/memory-game",
+            "stack": ["react", "javascript", "css"]
+        },
+        {
+            "title": "cv generator",
+            "liveUrl": "https://seanstephenbrian.github.io/cv-project/",
+            "gitUrl": "https://github.com/seanstephenbrian/cv-project",
+            "stack": ["react", "javascript", "css"]
+        },
+        {
+            "title": "how's the weather?",
+            "liveUrl": "https://seanstephenbrian.github.io/weather-app/",
+            "gitUrl": "https://github.com/seanstephenbrian/weather-app",
+            "stack": ["javascript", "css", "html"]
+        },
+        {
+            "title": "apicius cafe",
+            "liveUrl": "https://seanstephenbrian.github.io/restaurant-page/",
+            "gitUrl": "https://github.com/seanstephenbrian/restaurant-page",
+            "stack": ["javascript", "css", "webpack"]
+        },
+        {
+            "title": "admin dashboard",
+            "liveUrl": "https://seanstephenbrian.github.io/admin-dashboard/",
+            "gitUrl": "https://github.com/seanstephenbrian/admin-dashboard",
+            "stack": ["javascript", "css", "html"]
+        },
+        {
+            "title": "tic-tac-toe",
+            "liveUrl": "https://seanstephenbrian.github.io/tic-tac-toe/",
+            "gitUrl": "https://github.com/seanstephenbrian/tic-tac-toe",
+            "stack": ["javascript", "css", "html"]
+        },
+        {
+            "title": "book log",
+            "liveUrl": "https://seanstephenbrian.github.io/book-log/",
+            "gitUrl": "https://github.com/seanstephenbrian/book-log",
+            "stack": ["javascript", "css", "html"]
+        },
+        {
+            "title": "contact form",
+            "liveUrl": "https://seanstephenbrian.github.io/sign-up-form/",
+            "gitUrl": "https://github.com/seanstephenbrian/sign-up-form",
+            "stack": ["html", "css"]
+        },
+        {
+            "title": "pointillist etch-a-sketch",
+            "liveUrl": "https://seanstephenbrian.github.io/etch-a-sketch/",
+            "gitUrl": "https://github.com/seanstephenbrian/etch-a-sketch",
+            "stack": ["javascript", "css", "html"]
+        },
+        {
+            "title": "calculator",
+            "liveUrl": "https://seanstephenbrian.github.io/calculator/",
+            "gitUrl": "https://github.com/seanstephenbrian/calculator",
+            "stack": ["javascript", "css", "html"]
+        }
+    ]
+}
+
