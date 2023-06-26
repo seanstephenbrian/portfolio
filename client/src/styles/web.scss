@@ -1,7 +1,19 @@
 .web {
     font-size: var(--small);
-    max-width: 1000px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
+    .web-intro {
+        margin-bottom: 30px;
+        font-style: italic;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .web-projects {
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
+
