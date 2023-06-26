@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import uniqid from 'uniqid';
+
+import WebProject from '../components/WebProject';
 
 import '../styles/web.scss';
 
@@ -17,13 +18,7 @@ export default function Web() {
 
     return (
         <section className='web'>
-            {projects.map((project) => {
-                return (
-                    <div className='web-project' key={uniqid()}>
-                        <a href={project.liveUrl} target='_blank' rel='noopener noreferrer'>{project.title}</a>
-                    </div>
-                )
-            })}
+            {projects.map(project => <WebProject project={project} />)}
         </section>
     )
 }
