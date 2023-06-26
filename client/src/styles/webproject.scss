@@ -1,12 +1,35 @@
 .web-project {
         
         .project-title {
-
+            cursor: pointer;
+            font-size: var(--medium);
         }
+
+        .project-title:hover {
+            text-decoration: underline;
+        }
+
         .project-stack {
         }
     
     .project-links {
-     
+        margin-top: 5px;
+        display: flex;
+        gap: 20px;
+
+
+        .project-link {
+            color: blue;
+        }
+        .project-link:visited {
+            color: blue;
+        }
+    }
+}
+
+.web-project.expanded {
+
+    .project-title {
+        text-decoration: underline;
     }
 }

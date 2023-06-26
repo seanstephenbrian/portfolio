@@ -23,7 +23,7 @@ export default function WebProject(props) {
 
     return (
         <div 
-            className='web-project' 
+            className={showDetails ? 'web-project expanded' : 'web-project'} 
             key={uniqid()} 
         >
 
@@ -44,12 +44,12 @@ export default function WebProject(props) {
             {showDetails ? (
             <div className='project-links'>
                 <div className='live-link-container'>
-                    <a href={project.liveUrl} className='live-link' target='_blank' rel='noopener noreferrer'>
+                    <a href={project.liveUrl} className='project-link live-link' target='_blank' rel='noopener noreferrer'>
                         live demo
                     </a>
                 </div>
                 <div className='git-link-container'>
-                    <a href={project.gitUrl} className='git-link' target='_blank' rel='noopener noreferrer'>
+                    <a href={project.gitUrl} className='project-link git-link' target='_blank' rel='noopener noreferrer'>
                         code
                     </a>
                 </div>
