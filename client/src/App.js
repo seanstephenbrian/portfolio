@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 
 import Content from './components/Content';
 import Header from './components/Header';
@@ -9,6 +9,7 @@ import './styles/main.scss';
 function App() {
 
     const [section, setSection] = useState('web');
+    const [webAnimationRan, setWebAnimationRan] = useState(false);
 
     function updateSection(newSection) {
         setSection(newSection);
@@ -21,7 +22,6 @@ function App() {
                 <Menu relaySection={updateSection} />
                 <Content selectedSection={section} />
             </main>
-            
         </div>
     );
 }
