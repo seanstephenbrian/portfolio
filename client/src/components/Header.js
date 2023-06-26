@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import uniqid from 'uniqid';
 import _ from 'lodash';
 
 import '../styles/header.scss';
@@ -29,7 +30,7 @@ export default function Header() {
             <section className='name'>
                 {shuffled ? 
                 returnShuffledNames(names).map((name, index) => {
-                    return <span className={`name-${index}`}>{name}</span>;
+                    return <span className={`name-${index}`} key={uniqid()}>{name}</span>;
                 }) : 
                 seanStephenBrian}
             </section>

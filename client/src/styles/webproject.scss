@@ -1,18 +1,28 @@
 .web-project {
     width: fit-content;
 
-        .project-title {
-            cursor: pointer;
-            font-size: var(--medium);
-        }
+    .project-title {
+        cursor: pointer;
+        font-size: var(--medium);
+    }
 
-        .project-title:hover {
-            text-decoration: underline;
-        }
+    .project-title:hover {
+        text-decoration: underline;
+    }
 
-        .project-stack {
-            font-size: var(--small);
-        }
+    .project-stack {
+        font-size: var(--small);
+        color: #626262e9;
+    }
+
+    .project-description {
+        margin-top: 5px;
+        font-size: calc(0.7*var(--small));
+        background-color: rgba(128, 128, 128, 0.181);
+        padding: 10px;
+        border-radius: 5px;
+        max-width: fit-content;
+    }
     
     .project-links {
         margin-top: 5px;

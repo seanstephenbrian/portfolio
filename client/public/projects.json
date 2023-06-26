@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "lead block sports",
-            "description": "full-stack sports blog platform built with react, node.js/express, and mongodb. custom design. in addition to the main website, i created a separate admin dashboard to allow the author to interface with the API and independently update content.",
+            "description": "full-stack sports blog platform built with react, node.js/express, and mongodb. custom design. in addition to the main website, i created a separate admin dashboard to allow the author to independently update content.",
             "liveUrl": "https://www.leadblocksports.blog/",
             "gitUrl": "https://github.com/seanstephenbrian/lead-block",
             "stack": ["express", "node", "react", "mongoose", "sass", "pug", "css", "javascript"]

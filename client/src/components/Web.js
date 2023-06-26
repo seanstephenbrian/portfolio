@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import uniqid from 'uniqid';
 
 import WebProject from '../components/WebProject';
 
@@ -57,7 +58,7 @@ export default function Web(props) {
                 </p>
             </section>
             <section className='web-projects'>
-                {displayedProjects.map(project => <WebProject project={project} />)}
+                {displayedProjects.map(project => <WebProject key={uniqid()} project={project} />)}
             </section>
         </section>
     )
