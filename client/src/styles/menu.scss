@@ -1,5 +1,4 @@
 nav {
-    
     margin-top: 20px;
     width: fit-content;
     overflow: hidden;
@@ -51,6 +50,17 @@ nav {
             border: 2px solid blue;
             text-shadow: 0 0 blue;
         }
+    }
+}
 
+@media screen and (max-width: 700px) {
+    nav {
+        ul {
+            padding: 0;
+            flex-direction: row;
+            width: 100vw;
+            justify-content: center;
+            gap: 15px;
+        }
     }
 }

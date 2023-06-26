@@ -17,6 +17,11 @@ header.header {
         .brian:hover {
             color: var(--red);
         }
+    }
+}
 
+@media screen and (max-width: 700px) {
+    header.header {
+        justify-content: center;
     }
 }

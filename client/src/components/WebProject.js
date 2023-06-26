@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import uniqid from 'uniqid';
 
+import '../styles/webproject.scss';
+
 export default function WebProject(props) {
 
     const { project } = props;
@@ -24,6 +26,7 @@ export default function WebProject(props) {
             className='web-project' 
             key={uniqid()} 
         >
+
             <div 
                 className='project-title' 
                 onClick={() => {
@@ -36,15 +39,20 @@ export default function WebProject(props) {
             <div className='project-stack'>
                 {showDetails ? renderProjectStack(project.stack) : ''}
             </div>
+            
 
             {showDetails ? (
             <div className='project-links'>
-                <a href={project.liveUrl} className='live-link' target='_blank' rel='noopener noreferrer'>
-                    live demo
-                </a>
-                <a href={project.gitUrl} className='git-link' target='_blank' rel='noopener noreferrer'>
-                    code
-                </a>
+                <div className='live-link-container'>
+                    <a href={project.liveUrl} className='live-link' target='_blank' rel='noopener noreferrer'>
+                        live demo
+                    </a>
+                </div>
+                <div className='git-link-container'>
+                    <a href={project.gitUrl} className='git-link' target='_blank' rel='noopener noreferrer'>
+                        code
+                    </a>
+                </div>
             </div>
             ) : ''}
 
