@@ -20,7 +20,7 @@ export default function Web() {
             {projects.map((project) => {
                 return (
                     <div className='web-project' key={uniqid()}>
-                        {project.title}
+                        <a href={project.liveUrl} target='_blank' rel='noopener noreferrer'>{project.title}</a>
                     </div>
                 )
             })}
