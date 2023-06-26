@@ -6,8 +6,9 @@ import '../styles/web.scss';
 
 export default function Web() {
     
-    const [projects, setProjects] = useState([]);
+    const [animationDelay, setAnimationDelay] = useState(500);
     const [displayedProjects, setDisplayedProjects] = useState([]);
+    const [projects, setProjects] = useState([]);
 
     useEffect(() => {
         let timer;
@@ -17,7 +18,7 @@ export default function Web() {
                 setProjects(data.projects);
                 timer = setTimeout(() => {
                     setDisplayedProjects([]);
-                }, 4000);
+                }, 3500);
             });
         return () => clearTimeout(timer);
     }, []);
@@ -31,10 +32,11 @@ export default function Web() {
                     projects[displayedProjects.length]
                 ];
                 setDisplayedProjects(newDisplayedProjects);
-            }, 200);
+            }, animationDelay);
         } else if (projects !== [] && projects.length === displayedProjects.length) {
             // update webAnimationRan 
         }
+        setAnimationDelay(prevDelay => prevDelay - 30);
         return () => clearTimeout(timer);
     }, [displayedProjects]);
 
