@@ -18,7 +18,7 @@ export default function Web() {
                 setProjects(data.projects);
                 timer = setTimeout(() => {
                     setDisplayedProjects([]);
-                }, 3500);
+                }, 3000);
             });
         return () => clearTimeout(timer);
     }, []);

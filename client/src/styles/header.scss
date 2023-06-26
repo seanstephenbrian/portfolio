@@ -1,4 +1,4 @@
-header.header {
+.header {
     display: flex;
     padding: var(--padding);
     
@@ -6,15 +6,15 @@ header.header {
         display: flex;
         gap: calc(var(--rvv));
 
-        .sean:hover {
+        .name-0:hover {
             color: var(--green);
         }
 
-        .stephen:hover {
+        .name-1:hover {
             color: var(--gray);
         }
 
-        .brian:hover {
+        .name-2:hover {
             color: var(--red);
         }
     }
