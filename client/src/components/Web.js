@@ -22,7 +22,7 @@ export default function Web(props) {
                     setProjects(data.projects);
                     timer = setTimeout(() => {
                         setDisplayedProjects([]);
-                    }, 3000);
+                    }, 500);
                 } else if (animationRan) {
                     setDisplayedProjects(data.projects);
                 }
@@ -49,7 +49,7 @@ export default function Web(props) {
 
     return (
         <section className='web'>
-            <section className={animationRan ? 'web-intro' : 'fade-in web-intro'}>
+            <section className='web-intro'>
                 <p>
                     below you'll find a selection of my recent work on the web . . .
                 </p>
