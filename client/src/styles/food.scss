@@ -39,8 +39,8 @@
             flex-wrap: wrap;
 
             .egg-well {
-                opacity: 0;
-                animation: appear 0s 0.75s forwards;
+                // opacity: 0;
+                // animation: appear 0s 0.75s forwards;
             }
 
             .top-right {
@@ -55,8 +55,8 @@
 
                 .boats {
                     max-width: 400px;
-                    opacity: 0;
-                    animation: appear 0s 1.2s forwards;
+                    // opacity: 0;
+                    // animation: appear 0s 1.2s forwards;
                 }
             }
             
@@ -70,14 +70,14 @@
             flex-wrap: wrap;
 
             .trofie {
-                opacity: 0;
-                animation: appear 0s 1.8s forwards;
+                // opacity: 0;
+                // animation: appear 0s 1.8s forwards;
             }
 
             .sfoglia {
                 align-self: start;
-                opacity: 0;
-                animation: appear 0s 1.6s forwards;
+                // opacity: 0;
+                // animation: appear 0s 1.6s forwards;
             }
         }
     }

@@ -2,10 +2,10 @@ import React from 'react';
 
 import '../styles/food.scss';
 
-import Pasta1 from '../photos/pasta/pasta_1.jpg';
-import Pasta2 from '../photos/pasta/pasta_2.jpg';
-import Pasta3 from '../photos/pasta/pasta_3.jpg';
-import Pasta4 from '../photos/pasta/pasta_4.jpg';
+import Pasta1 from '../assets/photos/pasta/pasta_1.jpg';
+import Pasta2 from '../assets/photos/pasta/pasta_2.jpg';
+import Pasta3 from '../assets/photos/pasta/pasta_3.jpg';
+import Pasta4 from '../assets/photos/pasta/pasta_4.jpg';
 
 export default function Food() {
     return (
