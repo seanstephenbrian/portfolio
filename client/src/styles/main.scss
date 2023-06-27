@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'Fairwall Sans';
+    src: url('../assets/fonts/fairwall/FairwallSans-Regular.otf');
+}
+
+@font-face {
     font-family: 'Helico';
     src: url('../assets/fonts/helico/Helico-Centrica-Roman.ttf');
 }
@@ -6,6 +11,12 @@
 @font-face {
     font-family: 'Torre Farfan';
     src: url('../assets/fonts/torre/TorreFarfan_v2.ttf');
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/work_sans/WorkSans-VariableFont_wght.ttf');
+    font-weight: 100 900;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -55,12 +66,18 @@ body {
 }
 
 body {
+    font-family: 'Work Sans';
+    font-weight: 300;
     font-size: var(--large);
 }
 
-main {
-    display: flex;
-    gap: 40px;
+.wrapper {
+    min-height: 100vh;
+    
+    main {
+        display: flex;
+        gap: 40px;
+    }
 }
 
 @media screen and (max-width: 1000px) {

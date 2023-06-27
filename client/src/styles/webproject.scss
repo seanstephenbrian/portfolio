@@ -4,6 +4,7 @@
     .project-title {
         cursor: pointer;
         font-size: var(--medium);
+        font-weight: 350;
     }
 
     .project-title:hover {
@@ -18,13 +19,14 @@
     .project-description {
         margin-top: 5px;
         font-size: calc(0.7*var(--small));
-        background-color: rgba(128, 128, 128, 0.181);
+        background-color: #ab605b85;
         padding: 10px;
         border-radius: 5px;
         max-width: fit-content;
     }
     
     .project-links {
+        font-size: var(--small);
         margin-top: 5px;
         display: flex;
         gap: 20px;

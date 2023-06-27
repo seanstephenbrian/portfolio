@@ -4,7 +4,7 @@ import _ from 'lodash';
 
 import '../styles/header.scss';
 
-export default function Header() {
+export default function Header(props) {
 
     const [names, setNames] = useState(['sean', 'stephen', 'brian']);
     const [shuffled, setShuffled] = useState(false);
