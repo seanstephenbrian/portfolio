@@ -5,18 +5,19 @@
         max-width: 1200px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
         gap: 20px;
         align-items: flex-start;
 
         img {
-            max-height: 250px;
+            max-height: 300px;
         }
     }
 
     p {
         margin-top: 20px;
         font-style: italic;
+        text-align: center;
 
         a,
         a:visited {
@@ -33,11 +34,11 @@
 @media screen and (max-width: 1000px) {
     .photo {
         .photos-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
             justify-content: center;
-        }
-
-        p {
-            text-align: center;
+            align-items: flex-start;
         }
     }
 }
