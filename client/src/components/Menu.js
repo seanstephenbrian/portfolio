@@ -37,7 +37,7 @@ export default function Menu(props) {
                     className={selected === 'about' ? 'selected about' : 'about'}
                     onClick={() => setSelected('about')}
                 >
-                    <span role="img" aria-label="photo">🙋🏻</span>
+                    <span role="img" aria-label="photo">🙋‍♂️</span>
                 </li>
                 {/* <li 
                     className={selected === 'music' ? 'selected' : ''}
