@@ -1,10 +1,19 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg) scale(1.1);
+    } to {
+        transform: rotate(360deg) scale(1.1);
+    }
+}
+
 nav {
     margin-top: 20px;
     width: fit-content;
-    min-width: 110px;
+    min-width: 130px;
     overflow: hidden;
     
     ul {
+        margin: 10px 0;
         padding-left: calc(var(--padding) - 5px);
         list-style: none;
         display: flex;
@@ -14,42 +23,44 @@ nav {
         li {
             width: var(--large);
             height: var(--large);
-            padding: var(--nav-padding);
+            padding: calc(0.7*var(--nav-padding));
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 2px solid transparent;
+            border: 3px solid transparent;
             border-radius: 50%;
             cursor: pointer;
-            transition: transform 12s linear;
+            transition: transform 0.1s ease-in-out;
         }
 
         li:not(.selected):hover {
-            transform: rotate(1080deg);
+            transform: scale(1.1);
         }
 
         li.selected {
+            transform: scale(1.1);
             color: transparent;
+            animation: rotate 18s linear 0s infinite reverse;
         }
 
         .web.selected {
-            border: 2px solid var(--green);
-            text-shadow: 0px 0px var(--green);
+            border: 3px dashed var(--red);
+            text-shadow: 0px 0px var(--red);
         }
 
         .food.selected {
-            border: 2px solid var(--gray);
+            border: 3px dashed var(--gray);
             text-shadow: 0px 0px var(--gray);
         }
 
         .photo.selected {
-            border: 2px solid var(--orange);
+            border: 3px dashed var(--orange);
             text-shadow: 0px 0px var(--orange);
         }
 
         .about.selected {
-            border: 2px solid blue;
-            text-shadow: 0 0 blue;
+            border: 3px dashed #719a5a;
+            text-shadow: 0 0 #719a5a;
         }
     }
 }
@@ -57,6 +68,7 @@ nav {
 @media screen and (max-width: 1000px) {
     nav {        
         ul {
+            margin-top: 10px;
             padding: 0;
             flex-direction: row;
             width: 100vw;

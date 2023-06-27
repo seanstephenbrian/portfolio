@@ -10,12 +10,12 @@ import Pasta4 from '../assets/photos/pasta/pasta_4.jpg';
 export default function Food() {
     return (
         <section className='food'>
-            <p className='opening-mobile'>lately i've been working on making fresh pasta by hand :)</p>
+            <p className='opening-mobile'>i also make fresh pasta by hand</p>
             <div className='pasta-photos'>
                 <div className='top'>
                     <img className='egg-well' src={Pasta2} alt='eggs and flour to make fresh pasta'></img>
                     <div className='top-right'>
-                        <p className='opening-desktop'>lately i've been working on making fresh pasta by hand :)</p>
+                        <p className='opening-desktop'>i also make fresh pasta by hand</p>
                         <img className='boats' src={Pasta1} alt='pasta dishes'></img>
                     </div>  
                 </div>
@@ -25,7 +25,7 @@ export default function Food() {
                 </div> 
             </div>
             <p className='closing'>
-                i cook other things, too! <br/>
+                ...and i cook other things, too! <br/>
                 if you're interested, you can stay updated <a href='https://graces.website/' target='_blank' rel='noopener noreferrer'>here</a>.
             </p>
         </section>

@@ -33,6 +33,7 @@ export default function Header(props) {
                     return <span className={`name-${index}`} key={uniqid()}>{name}</span>;
                 }) : 
                 seanStephenBrian}
+                <span>delanty</span>
             </section>
         </header>
     )

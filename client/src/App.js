@@ -11,12 +11,12 @@ import './styles/main.scss';
 function App() {
 
     const [bgColors] = useState({
-        yellow: '#efb918a3',
         white: '#ffffff',
+        yellow: '#efb918a3',
         red: '#dd60576c',
         green: '#719a5a9b'
     });
-    const [currentBg, setCurrentBg] = useState(bgColors.yellow)
+    const [currentBg, setCurrentBg] = useState(bgColors.white)
     const [section, setSection] = useState('web');
 
     function updateSection(newSection) {

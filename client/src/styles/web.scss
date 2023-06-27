@@ -9,8 +9,14 @@
 .web {
     font-size: var(--medium);
 
+    h1 {
+        font-size: calc(1.2*var(--medium));
+        font-weight: 360;
+    }
+
     .web-intro {
-        margin-bottom: 30px;
+        font-size: var(--small);
+        margin-bottom: 40px;
         font-style: italic;
         display: flex;
         flex-direction: column;

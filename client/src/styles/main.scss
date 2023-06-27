@@ -9,6 +9,12 @@
 }
 
 @font-face {
+    font-family: 'Jost';
+    src: url('../assets/fonts/Jost-VariableFont_wght.ttf');
+    font-weight: 100 900;
+}
+
+@font-face {
     font-family: 'Torre Farfan';
     src: url('../assets/fonts/torre/TorreFarfan_v2.ttf');
 }
@@ -50,10 +56,10 @@ time, mark, audio, video {
     --medium: calc(0.9*var(--rvv));
     --small: calc(0.7*var(--rvv));
 
-    --green: #009344;
+    --green: #719a5a;
     --gray: #949494;
-    --red: #CF2734;
-    --orange: #FF7901;
+    --red: #824E4A;
+    --orange: #dca500;
 }
 
 html,
@@ -67,8 +73,8 @@ body {
 }
 
 body {
-    font-family: 'Work Sans';
-    font-weight: 300;
+    font-family: 'Jost';
+    font-weight: 250;
     font-size: var(--large);
 }
 

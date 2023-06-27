@@ -1,7 +1,7 @@
 .header {
-    font-family: 'Fairwall Sans';
     display: flex;
     padding: var(--padding);
+    font-weight: 100;
     
     .name {
         display: flex;
@@ -25,5 +25,9 @@
     header.header {
         padding-top: calc(2.75*var(--padding));
         justify-content: center;
+
+        .name {
+            gap: calc(0.6*var(--rvv));
+        }
     }
 }
