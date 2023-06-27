@@ -6,7 +6,7 @@
     }
 }
 
-.about {
+.about-section {
     font-size: var(--medium);
     display: flex;
     flex-direction: column;
@@ -19,8 +19,13 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .about {
+    .about-section {
+        font-size: var(--small);
         align-items: center;
         text-align: center;
+
+        p {
+            max-width: 80vw;
+        }
     }
 }
