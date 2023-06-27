@@ -12,10 +12,6 @@
     flex-direction: column;
     gap: 30px;
     max-width: 1000px;
-
-    .ufo {
-        max-width: 80px;
-    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -23,6 +19,10 @@
         font-size: var(--small);
         align-items: center;
         text-align: center;
+
+        .thanks {
+            font-size: var(--medium);
+        }
 
         p {
             max-width: 80vw;
