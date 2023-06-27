@@ -9,8 +9,9 @@ export default function About() {
 
     return (
         <section className='about'>
-            <p>thanks for stopping by! <img alt='' className='ufo' src={Ufo}></img></p>
+            <p>thanks for stopping by!</p>
             <p>you can reach me by email at <br/>seanstephenbrian@gmail.com</p>
+            <img alt='' className='ufo' src={Ufo}></img>
         </section>
     )
 }

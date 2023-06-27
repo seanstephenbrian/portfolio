@@ -10,10 +10,11 @@
     font-size: var(--medium);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 
     .ufo {
-        margin-left: 40px;
+        margin-top: 20px;
+        align-self: center;
         max-width: 80px;
         animation: hover 8s ease-in-out infinite alternate;
     }

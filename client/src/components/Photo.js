@@ -41,7 +41,7 @@ export default function Photo() {
         <section className='photo'>
             <div className='photos-container'>
                 { _.shuffle(photos).map((photo) => {
-                    return <img alt='' src={photo}></img>
+                    return <img alt='' key={uniqid()} src={photo}></img>
                 })}
                 <img alt='' src={FinalPhoto}></img>
             </div>
