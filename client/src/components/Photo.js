@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import uniqid from 'uniqid';
 import _ from 'lodash';
 
@@ -13,7 +13,7 @@ import Photo6 from '../assets/photos/photography/6.jpg';
 import Photo7 from '../assets/photos/photography/7.jpg';
 import Photo8 from '../assets/photos/photography/8.jpg';
 import Photo9 from '../assets/photos/photography/9.jpg';
-import Photo10 from '../assets/photos/photography/10.jpg';
+// import Photo10 from '../assets/photos/photography/10.jpg';
 import Photo11 from '../assets/photos/photography/11.jpg';
 import Photo12 from '../assets/photos/photography/12.jpg';
 import Photo13 from '../assets/photos/photography/13.jpg';
@@ -21,7 +21,7 @@ import FinalPhoto from '../assets/photos/photography/final.jpg';
 
 export default function Photo() {
 
-    const [photos, setPhotos] = useState([
+    const [photos] = useState([
         Photo1,
         Photo2,
         Photo3,

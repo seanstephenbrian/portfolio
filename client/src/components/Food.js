@@ -25,8 +25,8 @@ export default function Food() {
                 </div> 
             </div>
             <p className='closing'>
-                i cook other things, too! if you're interested, 
-                you can learn more <a href='https://graces.website/' target='_blank' rel='noopener noreferrer'>here</a>.
+                i cook other things, too! <br/>
+                if you're interested, you can stay updated <a href='https://graces.website/' target='_blank' rel='noopener noreferrer'>here</a>.
             </p>
         </section>
     )

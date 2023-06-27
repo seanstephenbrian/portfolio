@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import uniqid from 'uniqid';
 import _ from 'lodash';
 
@@ -6,7 +6,7 @@ import '../styles/header.scss';
 
 export default function Header(props) {
 
-    const [names, setNames] = useState(['sean', 'stephen', 'brian']);
+    const [names] = useState(['sean', 'stephen', 'brian']);
     const [shuffled, setShuffled] = useState(false);
 
     const seanStephenBrian = (

@@ -28,7 +28,7 @@ export default function Web(props) {
                 }
             });
         return () => clearTimeout(timer);
-    }, []);
+    }, [animationRan]);
 
     useEffect(() => {
         let timer;
@@ -45,7 +45,9 @@ export default function Web(props) {
         }
         setAnimationDelay(prevDelay => prevDelay - 30);
         return () => clearTimeout(timer);
+    /* eslint-disable */
     }, [displayedProjects]);
+    /* eslint-enable */
 
     return (
         <section className='web'>
