@@ -88,11 +88,11 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .food {
         .pasta-photos {
             img {
-                max-width: 300px !important;
+                max-width: 250px !important;
             }
         }
     } 
