@@ -10,7 +10,7 @@ import Pasta4 from '../assets/photos/pasta/pasta_4.jpg';
 export default function Food() {
     return (
         <section className='food'>
-            <p className='opening-mobile'>i also make fresh pasta by hand</p>
+            <p className='opening-mobile'>i also make fresh pasta by hand.</p>
             <div className='pasta-photos'>
                 <div className='top'>
                     <img className='egg-well' src={Pasta2} alt='eggs and flour to make fresh pasta'></img>
