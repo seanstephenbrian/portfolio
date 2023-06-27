@@ -5,9 +5,9 @@
         max-width: 1200px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: start;
+        justify-content: flex-start;
         gap: 20px;
-        align-items: start;
+        align-items: flex-start;
 
         img {
             max-height: 250px;

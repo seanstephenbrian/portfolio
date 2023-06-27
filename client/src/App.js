@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { useState } from "react";
 
 import BgToggle from "./components/BgPicker";
 import Content from './components/Content';
@@ -10,7 +10,7 @@ import './styles/main.scss';
 
 function App() {
 
-    const [bgColors, setBgColors] = useState({
+    const [bgColors] = useState({
         yellow: '#efb918a3',
         white: '#ffffff',
         red: '#dd60576c',
