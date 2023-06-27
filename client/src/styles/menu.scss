@@ -24,11 +24,11 @@ nav {
             transition: transform 12s linear;
         }
 
-        li:hover {
-            transform: rotate(1080deg)
+        li:not(.selected):hover {
+            transform: rotate(1080deg);
         }
 
-        li.selected:hover {
+        li.selected {
             color: transparent;
         }
 

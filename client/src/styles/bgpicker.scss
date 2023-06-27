@@ -1,3 +1,11 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
 .bg-picker {
     position: absolute;
     top: 0;
@@ -12,15 +20,11 @@
         border-radius: 50%;
         height: 50px;
         width: 50px;
-        transition: transform 0.1s ease-in-out;
-    }
-
-    div:hover {
-        transform: scale(1.15);
     }
 
     .selected {
         border: 3px dashed black;
+        animation: rotate 18s linear 0s infinite forwards;
     }
 }
 

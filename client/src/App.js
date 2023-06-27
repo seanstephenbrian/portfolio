@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 import BgToggle from "./components/BgPicker";
 import Content from './components/Content';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Menu from './components/Menu';
 
@@ -39,6 +40,7 @@ function App() {
                 <Menu relaySection={updateSection} />
                 <Content selectedSection={section} />
             </main>
+            <Footer />
         </div>
     );
 }
