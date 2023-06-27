@@ -54,10 +54,7 @@ export default function Web(props) {
             <h1>web development</h1>
             <section className='web-intro'>
                 <p>
-                    below you'll find a selection of my recent work on the web.
-                </p>
-                <p>
-                    spend some time poking around! 
+                    below you'll find a selection of my recent work on the web. spend some time poking around!
                 </p>
             </section>
             <section className='web-projects'>
