@@ -1,0 +1,38 @@
+.bg-picker {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+
+    div {
+        cursor: pointer;
+        border: 3px solid transparent;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        transition: transform 0.1s ease-in-out;
+    }
+
+    div:hover {
+        transform: scale(1.15);
+    }
+
+    .selected {
+        border: 3px dashed black;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .bg-picker {
+        margin: 20px 0 0;
+        width: 174px;
+        left: calc(50vw - 87px);
+
+        div {
+            height: 30px;
+            width: 30px;
+        }
+    }
+}

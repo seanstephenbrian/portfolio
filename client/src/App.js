@@ -10,10 +10,10 @@ import './styles/main.scss';
 function App() {
 
     const [bgColors, setBgColors] = useState({
-        green: '#719a5a9b',
-        red: '#dd60576c',
+        yellow: '#efb918a3',
         white: '#ffffff',
-        yellow: '#efb918a3'
+        red: '#dd60576c',
+        green: '#719a5a9b'
     });
     const [currentBg, setCurrentBg] = useState(bgColors.yellow)
     const [section, setSection] = useState('web');
@@ -29,7 +29,11 @@ function App() {
                 backgroundColor: currentBg
             }}
         >
-            <BgToggle colorOptions={bgColors} />
+            <BgToggle 
+                colorOptions={bgColors}
+                selectedColor={currentBg}
+                updateColor={color => setCurrentBg(color)}
+            />
             <Header />
             <main>
                 <Menu relaySection={updateSection} />

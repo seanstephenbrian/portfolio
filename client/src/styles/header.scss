@@ -23,6 +23,7 @@
 
 @media screen and (max-width: 1000px) {
     header.header {
+        padding-top: calc(2.75*var(--padding));
         justify-content: center;
     }
 }

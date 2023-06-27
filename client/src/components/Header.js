@@ -22,12 +22,12 @@ export default function Header(props) {
     }
 
     return (
-        <header 
-            className='header'
-            onMouseOver={() => setShuffled(true)}
-            onMouseLeave={() => setShuffled(false)}
-        >
-            <section className='name'>
+        <header className='header'>
+            <section 
+                className='name'
+                onMouseOver={() => setShuffled(true)}
+                onMouseLeave={() => setShuffled(false)}
+            >
                 {shuffled ? 
                 returnShuffledNames(names).map((name, index) => {
                     return <span className={`name-${index}`} key={uniqid()}>{name}</span>;
