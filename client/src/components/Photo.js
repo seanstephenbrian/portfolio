@@ -40,7 +40,7 @@ export default function Photo() {
     return (
         <section className='photo'>
             <div className='photos-container'>
-                { _.shuffle(photos).map((photo, index) => {
+                { _.shuffle(photos).map((photo) => {
                     return <img alt='' src={photo}></img>
                 })}
                 <img alt='' src={FinalPhoto}></img>

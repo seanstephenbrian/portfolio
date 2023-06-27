@@ -1,0 +1,27 @@
+@keyframes hover {
+    from {
+        transform: translate(0, 0) rotate(-10deg);
+    } to {
+        transform: translate(10px, -10px) rotate(10deg);
+    }
+}
+
+.about {
+    font-size: var(--medium);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .ufo {
+        margin-left: 40px;
+        max-width: 80px;
+        animation: hover 8s ease-in-out infinite alternate;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        align-items: center;
+        text-align: center;
+    }
+}
