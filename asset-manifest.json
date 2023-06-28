@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e43b4c88.css",
+    "main.js": "/static/js/main.d1ac312c.js",
+    "static/media/WorkSans-VariableFont_wght.ttf": "/static/media/WorkSans-VariableFont_wght.a334cdd18c435a867b49.ttf",
+    "static/media/Helico-Centrica-Roman.ttf": "/static/media/Helico-Centrica-Roman.4dcf3f7251ae815952fd.ttf",
+    "static/media/3.jpg": "/static/media/3.4beafbfb2098cf77ea75.jpg",
+    "static/media/18.jpg": "/static/media/18.eab51b46c68f1bdbdcb0.jpg",
+    "static/media/final.jpg": "/static/media/final.75de2263df305b14ec3e.jpg",
+    "static/media/14.jpg": "/static/media/14.4293c5d59f5eebb3b146.jpg",
+    "static/media/15.jpg": "/static/media/15.079f7af6b68ca7937d69.jpg",
+    "static/media/9.jpg": "/static/media/9.13e23e7173ac958306c0.jpg",
+    "static/media/7.jpg": "/static/media/7.69a3f4065aea6413c738.jpg",
+    "static/media/5.jpg": "/static/media/5.4fe0919321ad616bccd4.jpg",
+    "static/media/Jost-VariableFont_wght.ttf": "/static/media/Jost-VariableFont_wght.6de07354a7108bacf175.ttf",
+    "static/media/TorreFarfan_v2.ttf": "/static/media/TorreFarfan_v2.339fef04d67e108dd889.ttf",
+    "static/media/19.jpg": "/static/media/19.207d153b2840f05a5048.jpg",
+    "static/media/4.jpg": "/static/media/4.f8c800fbe96483e9dfb1.jpg",
+    "static/media/pasta_3.jpg": "/static/media/pasta_3.fce457bb0343de3d472d.jpg",
+    "static/media/13.jpg": "/static/media/13.88dabfa7b23abc2549e6.jpg",
+    "static/media/12.jpg": "/static/media/12.238fd9f0dca387693eac.jpg",
+    "static/media/2.jpg": "/static/media/2.7fcf65ad8e6e192bc2ef.jpg",
+    "static/media/pasta_2.jpg": "/static/media/pasta_2.95448f0de2794f014658.jpg",
+    "static/media/pasta_1.jpg": "/static/media/pasta_1.aa5f0fe70ed943fd9b41.jpg",
+    "static/media/pasta_4.jpg": "/static/media/pasta_4.c62d185f95bcc8514361.jpg",
+    "static/media/11.jpg": "/static/media/11.bba8f0d2a4e4c904d404.jpg",
+    "static/media/1.jpg": "/static/media/1.04c75caa8d3be2706124.jpg",
+    "static/media/16.jpg": "/static/media/16.3b18210cf5fe22ded2f7.jpg",
+    "static/media/10.jpg": "/static/media/10.cbc3133ca3b5a2a1de70.jpg",
+    "static/media/FairwallSans-Regular.otf": "/static/media/FairwallSans-Regular.4f021f96ea7956238ba2.otf",
+    "static/media/17.jpg": "/static/media/17.e3c487f807063b39bd4e.jpg",
+    "static/media/8.jpg": "/static/media/8.534a1a9ecde0e62abc45.jpg",
+    "index.html": "/index.html",
+    "main.e43b4c88.css.map": "/static/css/main.e43b4c88.css.map",
+    "main.d1ac312c.js.map": "/static/js/main.d1ac312c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e43b4c88.css",
+    "static/js/main.d1ac312c.js"
+  ]
+}
