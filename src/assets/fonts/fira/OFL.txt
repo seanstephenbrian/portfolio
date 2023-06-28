@@ -1,6 +1,4 @@
-Copyright (c) 2020 by Estefania Gonzalez Sanchez, with Reserved Font Name 'TorreFarfan'
-(https://www.behance.net/egonsanchez | email:e.glez.chez@gmail.com | instagram:/e.gon.z/),
-
+Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

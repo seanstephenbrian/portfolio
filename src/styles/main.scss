@@ -1,5 +1,11 @@
 @font-face {
-    font-family: 'Fairwall Sans';
+    font-family: 'Fira';
+    src: url('../assets/fonts/fira/FiraCode-VariableFont_wght.ttf');
+    font-weight: 300 700;
+}
+
+@font-face {
+    font-family: 'Fairwall';
     src: url('../assets/fonts/fairwall/FairwallSans-Regular.otf');
 }
 
@@ -10,20 +16,10 @@
 
 @font-face {
     font-family: 'Jost';
-    src: url('../assets/fonts/Jost-VariableFont_wght.ttf');
+    src: url('../assets/fonts/jost/Jost-VariableFont_wght.ttf');
     font-weight: 100 900;
 }
 
-@font-face {
-    font-family: 'Torre Farfan';
-    src: url('../assets/fonts/torre/TorreFarfan_v2.ttf');
-}
-
-@font-face {
-    font-family: 'Work Sans';
-    src: url('../assets/fonts/work_sans/WorkSans-VariableFont_wght.ttf');
-    font-weight: 100 900;
-}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -73,7 +69,6 @@ body {
 }
 
 body {
-    font-family: 'Jost';
     font-weight: 250;
     font-size: var(--large);
 }

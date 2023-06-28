@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-import BgToggle from "./components/BgPicker";
+import BgPicker from "./components/BgPicker";
 import Content from './components/Content';
+import FontPicker from './components/FontPicker';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Menu from './components/Menu';
@@ -16,7 +17,14 @@ function App() {
         red: '#dd60576c',
         green: '#719a5a9b'
     });
-    const [currentBg, setCurrentBg] = useState(bgColors.white)
+    const [currentBg, setCurrentBg] = useState(bgColors.white);
+    const [fonts] = useState({
+        jost: 'Jost',
+        fairwall: 'Fairwall',
+        helico: 'Helico',
+        fira: 'Fira'
+    });
+    const [currentFont, setCurrentFont] = useState(fonts.jost);
     const [section, setSection] = useState('web');
 
     function updateSection(newSection) {
@@ -27,10 +35,16 @@ function App() {
         <div 
             className="wrapper"
             style={{
-                backgroundColor: currentBg
+                backgroundColor: currentBg,
+                fontFamily: currentFont
             }}
         >
-            <BgToggle 
+            <FontPicker
+                fontOptions={fonts}
+                selectedFont={currentFont}
+                updateFont={font => setCurrentFont(font)}
+            />
+            <BgPicker 
                 colorOptions={bgColors}
                 selectedColor={currentBg}
                 updateColor={color => setCurrentBg(color)}

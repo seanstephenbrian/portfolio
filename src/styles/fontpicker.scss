@@ -6,20 +6,30 @@
     }
 }
 
-.bg-picker {
+.font-picker {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 300px;
     display: flex;
     gap: 10px;
     margin: 30px;
 
     div {
+        position: relative;
         cursor: pointer;
         border: 3px solid transparent;
         border-radius: 50%;
         height: 50px;
         width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: var(--medium);
+
+        .helico {
+            position: relative;
+            top: 5px;
+        }
     }
 
     .selected {
@@ -28,18 +38,30 @@
     }
 
     .selected:hover {
-        transform: rotate(500deg);
+        transform: rotate(-700deg);
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .bg-picker {
+    .font-picker {
         position: fixed;
         margin: 13px 20px;
+        right: initial;
+        left: 0;
 
         div {
             height: 15px;
             width: 15px;
+        }
+
+        .selected {
+            border: 3px dashed transparent;
+            text-decoration: underline;
+            text-decoration-style: dashed;
+        }
+    
+        .selected:hover {
+            transform: rotate(0deg);
         }
     }
 }
