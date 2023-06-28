@@ -45,9 +45,10 @@
 @media screen and (max-width: 1000px) {
     .font-picker {
         position: fixed;
+        top: 30px;
         margin: 13px 20px;
-        top: 0;
-        left: 0;
+        // top: 0;
+        // left: 0;
         
         div {
             height: 15px;

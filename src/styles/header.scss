@@ -36,11 +36,12 @@
 
 @media screen and (max-width: 1000px) {
     header.header {
-        padding: calc(2*var(--padding)) 0 0;
+        padding: calc(2.5*var(--padding)) 0 0;
         justify-content: center;
 
         .name {
             gap: calc(0.6*var(--rvv));
+            max-width: 80vw;
         }
     }
 }
