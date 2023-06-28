@@ -18,6 +18,17 @@
         .name-2:hover {
             color: var(--red);
         }
+
+        .delanty:hover {
+            color: rgba(0, 0, 0, 0.128);
+        }
+    }
+
+    .name:hover {
+        .stephen,
+        .brian {
+            transform: rotate(180deg);
+        }
     }
 }
 

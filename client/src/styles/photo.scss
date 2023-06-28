@@ -12,23 +12,22 @@
         img {
             max-height: 250px;
         }
-    }
 
-    p {
-        margin-top: 20px;
-        font-style: italic;
-        text-align: center;
-
-        a,
-        a:visited {
-            color: blue;
+        p {
+            margin: 50px;
+            font-style: italic;
+            text-align: center;
+    
+            a,
+            a:visited {
+                color: blue;
+            }
+    
+            a:hover {
+                color: #20c20e;
+            }
         }
-
-        a:hover {
-            color: #20c20e;
-        }
     }
-
 }
 
 @media screen and (max-width: 1000px) {

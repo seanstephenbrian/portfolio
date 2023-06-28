@@ -56,10 +56,11 @@ export default function Photo() {
                     return <img alt='' key={uniqid()} src={photo}></img>
                 })}
                 <img alt='' src={FinalPhoto}></img>
+                <p>
+                    see more on<br/>
+                    <a href='https://www.instagram.com/seanstephenbrian/' target='_blank' rel='noopener noreferrer'>instagram</a>
+                </p>
             </div>
-            <p>
-                see more on <a href='https://www.instagram.com/seanstephenbrian/' target='_blank' rel='noopener noreferrer'>instagram</a>
-            </p>
         </section>
     )
 }

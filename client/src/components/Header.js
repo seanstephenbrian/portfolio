@@ -30,10 +30,10 @@ export default function Header(props) {
             >
                 {shuffled ? 
                 returnShuffledNames(names).map((name, index) => {
-                    return <span className={`name-${index}`} key={uniqid()}>{name}</span>;
+                    return <span className={name + ` name-${index}`} key={uniqid()}>{name}</span>;
                 }) : 
                 seanStephenBrian}
-                <span>delanty</span>
+                <span className='delanty'>delanty</span>
             </section>
         </header>
     )
