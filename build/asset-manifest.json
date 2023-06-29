@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c79e6b80.css",
-    "main.js": "/static/js/main.5115f73e.js",
+    "main.css": "/static/css/main.c519b345.css",
+    "main.js": "/static/js/main.30b37ac0.js",
+    "static/media/Unbounded-VariableFont_wght.ttf": "/static/media/Unbounded-VariableFont_wght.f609e6853a60ba1285b6.ttf",
     "static/media/FiraCode-VariableFont_wght.ttf": "/static/media/FiraCode-VariableFont_wght.4938e54ab2f06530a084.ttf",
     "static/media/Helico-Centrica-Roman.ttf": "/static/media/Helico-Centrica-Roman.4dcf3f7251ae815952fd.ttf",
     "static/media/3.jpg": "/static/media/3.4beafbfb2098cf77ea75.jpg",
@@ -29,12 +30,15 @@
     "static/media/FairwallSans-Regular.otf": "/static/media/FairwallSans-Regular.4f021f96ea7956238ba2.otf",
     "static/media/17.jpg": "/static/media/17.e3c487f807063b39bd4e.jpg",
     "static/media/8.jpg": "/static/media/8.534a1a9ecde0e62abc45.jpg",
+    "static/media/insta.svg": "/static/media/insta.6fcf3886751fb89cf481ae20e31fc7b2.svg",
+    "static/media/github.svg": "/static/media/github.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/index.html",
-    "main.c79e6b80.css.map": "/static/css/main.c79e6b80.css.map",
-    "main.5115f73e.js.map": "/static/js/main.5115f73e.js.map"
+    "static/media/email.svg": "/static/media/email.b5b2a4ce589626195ac448df2180434c.svg",
+    "main.c519b345.css.map": "/static/css/main.c519b345.css.map",
+    "main.30b37ac0.js.map": "/static/js/main.30b37ac0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c79e6b80.css",
-    "static/js/main.5115f73e.js"
+    "static/css/main.c519b345.css",
+    "static/js/main.30b37ac0.js"
   ]
 }
