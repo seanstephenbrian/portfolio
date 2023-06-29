@@ -1,4 +1,5 @@
 import React from 'react';
+import uniqid from 'uniqid';
 
 import '../styles/circle.scss';
 
@@ -11,7 +12,7 @@ export default function Circle() {
         <div className='circle'>
             { ['q1', 'q2', 'q3', 'q4'].map((quadrant) => {
                 return (
-                    <div className={quadrant}>
+                    <div className={quadrant} key={uniqid()}>
                         <a href='https://www.instagram.com/seanstephenbrian/' target='_blank' rel='noopener noreferrer'>
                             <img className='icon insta' src={InstaIcon} alt='Instagram'></img>
                         </a>
