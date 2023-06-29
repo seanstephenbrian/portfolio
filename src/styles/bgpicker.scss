@@ -47,6 +47,7 @@
         }
 
         .bg-backdrop {
+            z-index: -1;
             border: none;
             display: block;
             opacity: 1;

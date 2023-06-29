@@ -76,7 +76,12 @@
 
 @media screen and (max-width: 600px) {
     .circle {
-        --radius: 20vw;
         --icon: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .circle {
+        --icon: 20px;
     }
 }
