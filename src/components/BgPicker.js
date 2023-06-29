@@ -19,6 +19,7 @@ export default function BgPicker(props) {
                     </div>
                 )
             })}
+            <div className='bg-backdrop'></div>
         </div>
     )
 }

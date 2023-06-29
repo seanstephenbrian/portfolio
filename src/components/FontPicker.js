@@ -23,6 +23,7 @@ export default function FontPicker(props) {
                     </div>
                 )
             })}
+            <div className='font-backdrop'></div>
         </div>
     )
 }

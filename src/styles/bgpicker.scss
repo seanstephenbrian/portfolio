@@ -30,15 +30,33 @@
     .selected:hover {
         transform: rotate(500deg);
     }
+
+    .bg-backdrop {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1000px) {
     .bg-picker {
+        position: fixed;
         margin: 13px 20px;
 
         div {
             height: 15px;
             width: 15px;
+        }
+
+        .bg-backdrop {
+            border: none;
+            display: block;
+            opacity: 1;
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 150px;
+            height: 55px;
+            background-color: var(--transparent-gray);
+            border-radius: 0 0 0 20px;
         }
     }
 }

@@ -45,10 +45,15 @@
     .selected:hover {
         transform: rotate(-700deg);
     }
+
+    .font-backdrop {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1000px) {
     .font-picker {
+        position: fixed;
         top: 0;
         left: 0;
         margin: 13px 20px;
@@ -73,6 +78,21 @@
     
         .selected:hover {
             transform: rotate(0deg);
+        }
+
+        .font-backdrop {
+            border: none;
+            border-left: none;
+            border-top: none;
+            display: block;
+            opacity: 1;
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            width: 150px;
+            height: 55px;
+            background-color: var(--transparent-gray);
+            border-radius: 0 0 20px 0;
         }
     }
 }
