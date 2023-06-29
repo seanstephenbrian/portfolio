@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.02c819d2.css",
-    "main.js": "/static/js/main.30b37ac0.js",
+    "main.js": "/static/js/main.a577e6bf.js",
     "static/media/Unbounded-VariableFont_wght.ttf": "/static/media/Unbounded-VariableFont_wght.f609e6853a60ba1285b6.ttf",
     "static/media/FiraCode-VariableFont_wght.ttf": "/static/media/FiraCode-VariableFont_wght.4938e54ab2f06530a084.ttf",
     "static/media/Helico-Centrica-Roman.ttf": "/static/media/Helico-Centrica-Roman.4dcf3f7251ae815952fd.ttf",
@@ -35,10 +35,10 @@
     "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.b5b2a4ce589626195ac448df2180434c.svg",
     "main.02c819d2.css.map": "/static/css/main.02c819d2.css.map",
-    "main.30b37ac0.js.map": "/static/js/main.30b37ac0.js.map"
+    "main.a577e6bf.js.map": "/static/js/main.a577e6bf.js.map"
   },
   "entrypoints": [
     "static/css/main.02c819d2.css",
-    "static/js/main.30b37ac0.js"
+    "static/js/main.a577e6bf.js"
   ]
 }
