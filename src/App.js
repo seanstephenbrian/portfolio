@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import BgPicker from "./components/BgPicker";
+import Circle from './components/Circle';
 import Content from './components/Content';
 import FontPicker from './components/FontPicker';
 import Footer from './components/Footer';
@@ -21,7 +22,7 @@ function App() {
     const [fonts] = useState({
         jost: 'Jost',
         fira: 'Fira',
-        fairwall: 'Fairwall',
+        unbounded: 'Unbounded',
         helico: 'Helico',
     });
     const [currentFont, setCurrentFont] = useState(fonts.jost);
@@ -55,6 +56,7 @@ function App() {
                 <Content selectedSection={section} />
             </main>
             <Footer />
+            <Circle />
         </div>
     );
 }

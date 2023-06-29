@@ -1,0 +1,82 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+.circle {
+    --radius: 200px;
+    --icon: 50px;
+
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    right: calc(-1*var(--radius));
+    bottom: calc(-1*var(--radius));
+    width: calc(2*var(--radius));
+    height: calc(2*var(--radius));
+    border: 3px dashed black;
+    border-radius: 50%;
+    animation: rotate 30s linear 0s infinite forwards;
+    transition: scale 0.4s ease-in-out;
+    background-color: rgba(174, 174, 174, 0.274);
+
+    div {
+        transform-origin: center var(--radius);
+
+        .icon {
+            height: var(--icon);
+            position: absolute;
+        }
+        .github {
+            top: calc(0.1*var(--radius));
+            left: calc(var(--radius) - 0.5*var(--icon));
+        }
+        .insta,
+        .email {
+            top: calc(0.17*var(--radius));
+            --left-right: calc(var(--radius) - 1.9*var(--icon));
+        }
+        .insta {
+            left: var(--left-right);
+            transform: rotate(-19deg);
+        }
+        .email {
+            right: var(--left-right);
+            transform: rotate(19deg);
+        }
+    }
+
+    .q2 {
+        transform: rotate(90deg);
+    }
+
+    .q3 {
+        transform: rotate(180deg);
+    }
+
+    .q4 {
+        transform: rotate(270deg);
+    }
+}
+
+.circle:hover {
+    scale: 1.2;
+}
+
+@media screen and (max-width: 1000px) {
+    .circle {
+        --radius: 20vw;
+        --icon: 35px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .circle {
+        --radius: 20vw;
+        --icon: 25px;
+    }
+}
