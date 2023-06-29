@@ -20,9 +20,9 @@ function App() {
     const [currentBg, setCurrentBg] = useState(bgColors.white);
     const [fonts] = useState({
         jost: 'Jost',
+        fira: 'Fira',
         fairwall: 'Fairwall',
         helico: 'Helico',
-        fira: 'Fira'
     });
     const [currentFont, setCurrentFont] = useState(fonts.jost);
     const [section, setSection] = useState('web');

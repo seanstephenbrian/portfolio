@@ -28,7 +28,12 @@
 
         .helico {
             position: relative;
-            top: 5px;
+            top: 6px;
+            left: 2px;
+        }
+
+        .fairwall {
+            font-size: calc(0.9*var(--medium));
         }
     }
 
@@ -44,16 +49,20 @@
 
 @media screen and (max-width: 1000px) {
     .font-picker {
-        position: fixed;
-        top: 30px;
+        top: 0;
+        left: 0;
         margin: 13px 20px;
-        // top: 0;
-        // left: 0;
         
         div {
             height: 15px;
             width: 15px;
             border: 3px solid transparent;
+
+            .helico {
+                position: relative;
+                top: 4px;
+                left: 2px;
+            }
         }
 
         .selected {
