@@ -25,10 +25,7 @@
     .selected {
         border: 3px dashed black;
         transition: transform 2s ease-in-out;
-    }
-
-    .selected:hover {
-        transform: rotate(500deg);
+        animation: rotate 14s linear 0s infinite forwards;
     }
 
     .bg-backdrop {

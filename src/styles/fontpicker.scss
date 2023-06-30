@@ -40,10 +40,7 @@
     .selected {
         border: 3px dashed black;
         transition: transform 2s ease-in-out;
-    }
-
-    .selected:hover {
-        transform: rotate(-700deg);
+        animation: rotate 18s linear 0s infinite reverse;
     }
 
     .font-backdrop {

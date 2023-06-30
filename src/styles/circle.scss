@@ -7,59 +7,49 @@
 }
 
 .circle {
-    --radius: 200px;
+    --radius: 150px;
     --icon: 50px;
 
     cursor: pointer;
     position: fixed;
-    right: 0;
-    bottom: 0;
     right: calc(-1*var(--radius));
     bottom: calc(-1*var(--radius));
     width: calc(2*var(--radius));
     height: calc(2*var(--radius));
     border: 3px dashed black;
     border-radius: 50%;
-    animation: rotate 30s linear 0s infinite forwards;
+    animation: rotate 20s linear 0s infinite forwards;
     transition: scale 0.4s ease-in-out;
     background-color: var(--transparent-gray);
 
-    div {
-        transform-origin: center var(--radius);
-
-        .icon {
-            height: var(--icon);
-            position: absolute;
-        }
-        .github {
-            top: calc(0.1*var(--radius));
-            left: calc(var(--radius) - 0.5*var(--icon));
-        }
-        .insta,
-        .email {
-            top: calc(0.17*var(--radius));
-            --left-right: calc(var(--radius) - 1.9*var(--icon));
-        }
-        .insta {
-            left: var(--left-right);
-            transform: rotate(-19deg);
-        }
-        .email {
-            right: var(--left-right);
-            transform: rotate(19deg);
-        }
+    .icon {
+        height: var(--icon);
+        position: absolute;
     }
 
-    .q2 {
+    .github {
+        top: calc(0.1*var(--radius));
+        left: calc(var(--radius) - 0.5*var(--icon));
+    }
+
+    .email {
+        top: calc(var(--radius) - 0.5*var(--icon));
+    }
+
+    .email-1 {
+        left: calc(0.1*var(--radius));
+        transform: rotate(-90deg);
+    }
+
+    .email-2 {
+        right: calc(0.1*var(--radius));
         transform: rotate(90deg);
     }
 
-    .q3 {
+    .insta {
+        bottom: calc(0.1*var(--radius));
+        left: calc(var(--radius) - 0.5*var(--icon));
         transform: rotate(180deg);
-    }
-
-    .q4 {
-        transform: rotate(270deg);
     }
 }
 
