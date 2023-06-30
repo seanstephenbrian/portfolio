@@ -7,7 +7,7 @@
 }
 
 .circle {
-    --radius: 150px;
+    --radius: 110px;
     --icon: 50px;
 
     cursor: pointer;
@@ -18,7 +18,7 @@
     height: calc(2*var(--radius));
     border: 3px dashed black;
     border-radius: 50%;
-    animation: rotate 20s linear 0s infinite forwards;
+    animation: rotate 18s linear 0s infinite forwards;
     transition: scale 0.4s ease-in-out;
     background-color: var(--transparent-gray);
 
@@ -59,19 +59,19 @@
 
 @media screen and (max-width: 1000px) {
     .circle {
-        --radius: 20vw;
+        --radius: 75px;
         --icon: 35px;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .circle {
-        --icon: 25px;
-    }
-}
+// @media screen and (max-width: 600px) {
+//     .circle {
+//         --icon: 25px;
+//     }
+// }
 
-@media screen and (max-width: 500px) {
-    .circle {
-        --icon: 20px;
-    }
-}
+// @media screen and (max-width: 500px) {
+//     .circle {
+//         --icon: 20px;
+//     }
+// }

@@ -71,10 +71,7 @@
             border: 3px dashed transparent;
             text-decoration: underline;
             text-decoration-style: dashed;
-        }
-    
-        .selected:hover {
-            transform: rotate(0deg);
+            animation: none;
         }
 
         .font-backdrop {
