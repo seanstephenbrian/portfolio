@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fc8c150.css",
+    "main.css": "/static/css/main.1bb1cdc8.css",
     "main.js": "/static/js/main.a577e6bf.js",
     "static/media/Unbounded-VariableFont_wght.ttf": "/static/media/Unbounded-VariableFont_wght.f609e6853a60ba1285b6.ttf",
     "static/media/FiraCode-VariableFont_wght.ttf": "/static/media/FiraCode-VariableFont_wght.4938e54ab2f06530a084.ttf",
@@ -34,11 +34,11 @@
     "static/media/github.svg": "/static/media/github.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.b5b2a4ce589626195ac448df2180434c.svg",
-    "main.4fc8c150.css.map": "/static/css/main.4fc8c150.css.map",
+    "main.1bb1cdc8.css.map": "/static/css/main.1bb1cdc8.css.map",
     "main.a577e6bf.js.map": "/static/js/main.a577e6bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fc8c150.css",
+    "static/css/main.1bb1cdc8.css",
     "static/js/main.a577e6bf.js"
   ]
 }
