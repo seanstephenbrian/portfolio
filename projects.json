@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "lead block sports",
-            "description": "full-stack sports blog platform built with react, node.js/express, and mongodb. custom, original design. in addition to the main website, i created a separate admin dashboard to allow the author to independently update content.",
+            "description": "full-stack sports blog platform built with react, node.js/express, and mongodb. includes the main website + a separate admin dashboard allowing the author to independently update content.",
             "liveUrl": "https://www.leadblocksports.blog/",
             "gitUrl": "https://github.com/seanstephenbrian/lead-block",
             "stack": ["express", "node", "react", "mongoose", "sass", "pug", "css", "javascript"]
@@ -23,14 +23,14 @@
         },
         {
             "title": "ArtCart",
-            "description": "demo online store with shopping cart functionality, a searchable catalog, dynamic page routing, and a tongue-in-cheek contemporary art market theme.",
+            "description": "demo online store featuring a shopping cart component, a searchable catalog, dynamic page routing, and a tongue-in-cheek contemporary art market theme.",
             "liveUrl": "https://art-cart.up.railway.app/",
             "gitUrl": "https://github.com/seanstephenbrian/art-cart",
             "stack": ["react", "javascript", "sass"]
         },
         {
             "title": "campaign website",
-            "description": "informational website for a real local political candidate, built from scratch using vanilla js and custom css.",
+            "description": "informational website for a real local political candidate, built from scratch using vanilla js and custom css - no frameworks.",
             "liveUrl": "https://seanstephenbrian.github.io/campaign-website/",
             "gitUrl": "https://github.com/seanstephenbrian/campaign-website",
             "stack": ["javascript", "css", "html"]
@@ -65,7 +65,7 @@
         },
         {
             "title": "memory game",
-            "description": "simple react-based memory card game which makes use of component state and lifecycle methods.",
+            "description": "simple react-based memory card game highlighting react component state and lifecycle methods.",
             "liveUrl": "https://seanstephenbrian.github.io/memory-game/",
             "gitUrl": "https://github.com/seanstephenbrian/memory-game",
             "stack": ["react", "javascript", "css"]
@@ -79,37 +79,23 @@
         },
         {
             "title": "how's the weather?",
-            "description": "weather app powered by data from a third-party API; the gentle aesthetic features paintings by j.m.w. turner.",
+            "description": "weather app powered by data from a third-party API.",
             "liveUrl": "https://seanstephenbrian.github.io/weather-app/",
             "gitUrl": "https://github.com/seanstephenbrian/weather-app",
             "stack": ["javascript", "css", "html"]
         },
         {
             "title": "apicius cafe",
-            "description": "informational website for an imaginary restaurant showcasing dynamic DOM manipulation and an ancient rome-inspired css theme.",
+            "description": "dynamically updated single-page website for an imaginary restaurant built with pure javascript. features an original ancient rome-inspired css theme.",
             "liveUrl": "https://seanstephenbrian.github.io/restaurant-page/",
             "gitUrl": "https://github.com/seanstephenbrian/restaurant-page",
             "stack": ["javascript", "css", "webpack"]
         },
         {
             "title": "admin dashboard",
-            "description": "design concept for an admin dashboard page, laid out primarily using css grid.",
+            "description": "design concept for an admin dashboard page.",
             "liveUrl": "https://seanstephenbrian.github.io/admin-dashboard/",
             "gitUrl": "https://github.com/seanstephenbrian/admin-dashboard",
-            "stack": ["javascript", "css", "html"]
-        },
-        {
-            "title": "tic-tac-toe",
-            "description": "simple tic-tac-toe web game with a unique visual design - an early experiment in crafting a dynamic and unconventional user experience.",
-            "liveUrl": "https://seanstephenbrian.github.io/tic-tac-toe/",
-            "gitUrl": "https://github.com/seanstephenbrian/tic-tac-toe",
-            "stack": ["javascript", "css", "html"]
-        },
-        {
-            "title": "book log",
-            "description": "web app to log a user's reading activity and annual reading goal.",
-            "liveUrl": "https://seanstephenbrian.github.io/book-log/",
-            "gitUrl": "https://github.com/seanstephenbrian/book-log",
             "stack": ["javascript", "css", "html"]
         },
         {
@@ -120,15 +106,29 @@
             "stack": ["html", "css"]
         },
         {
+            "title": "tic-tac-toe",
+            "description": "early js project - simple tic-tac-toe web game with an experimental UI.",
+            "liveUrl": "https://seanstephenbrian.github.io/tic-tac-toe/",
+            "gitUrl": "https://github.com/seanstephenbrian/tic-tac-toe",
+            "stack": ["javascript", "css", "html"]
+        },
+        {
+            "title": "book log",
+            "description": "early js project - web app to log a user's reading activity and annual reading goal.",
+            "liveUrl": "https://seanstephenbrian.github.io/book-log/",
+            "gitUrl": "https://github.com/seanstephenbrian/book-log",
+            "stack": ["javascript", "css", "html"]
+        },
+        {
             "title": "pointillist etch-a-sketch",
-            "description": "early javascript project using an art historical etch-a-sketch concept to explore event-driven DOM manipulation.",
+            "description": "early js project - an art historical, etch-a-sketch-inspired drawing tool.",
             "liveUrl": "https://seanstephenbrian.github.io/etch-a-sketch/",
             "gitUrl": "https://github.com/seanstephenbrian/etch-a-sketch",
             "stack": ["javascript", "css", "html"]
         },
         {
             "title": "calculator",
-            "description": "another early javascript project - a fully functional digital calculator with an experimental visual design.",
+            "description": "early js project - a fully functional digital calculator with an experimental visual design.",
             "liveUrl": "https://seanstephenbrian.github.io/calculator/",
             "gitUrl": "https://github.com/seanstephenbrian/calculator",
             "stack": ["javascript", "css", "html"]
