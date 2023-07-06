@@ -13,15 +13,15 @@ export default function Food() {
             <p className='opening-mobile'>i also make fresh pasta by hand.</p>
             <div className='pasta-photos'>
                 <div className='top'>
-                    <img className='egg-well' src={Pasta2} alt='eggs and flour to make fresh pasta'></img>
+                    <img className='egg-well' src={Pasta2} alt=''></img>
                     <div className='top-right'>
                         <p className='opening-desktop'>i also make fresh pasta by hand.</p>
-                        <img className='boats' src={Pasta1} alt='pasta dishes'></img>
+                        <img className='boats' src={Pasta1} alt=''></img>
                     </div>  
                 </div>
                 <div className='bottom'>
-                    <img className='trofie' src={Pasta3} alt='handmade pasta'></img>
-                    <img className='sfoglia' src={Pasta4} alt='rolling out a pasta sheet by hand'></img>
+                    <img className='trofie' src={Pasta3} alt=''></img>
+                    <img className='sfoglia' src={Pasta4} alt=''></img>
                 </div> 
             </div>
             <p className='closing'>
