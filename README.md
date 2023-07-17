@@ -1,4 +1,4 @@
-# [sean stephen brian](https://seanstephenbrian.com/)
+# [sean stephen brian dot com](https://seanstephenbrian.com/)
 
 this is my portfolio website :)
 
